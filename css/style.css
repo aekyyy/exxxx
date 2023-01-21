@@ -8,6 +8,8 @@
 .container{
     width: 1440px;
     margin: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .hdrek{
@@ -192,6 +194,11 @@
     border-radius: 20px;
     padding: 4px, 40px, 4px, 4px;
     margin-right: 13px;
+}
+
+.olol{
+    display: flex;
+    flex-direction: column;
 }
 
 .modeswitch .soln{
@@ -431,6 +438,7 @@
     font-size: 36px;
     line-height: 110%;
     padding: 16px 0 0 16px;
+    margin-bottom: 100px;
 
     
     
@@ -1194,17 +1202,15 @@ color: #000000;
 
 
 @media (max-width: 768px) {
-    .container{
-        width: 768px;
-        margin: auto;
-    }
+
+
     .hdrek{
-        margin: auto;
-        margin-bottom: 24px;
+        display: flex;
+        justify-content: center;
     }
 
     .hdrek img{
-        margin: auto;
+        /* margin: auto; */
         width: 766px;
         height: 172px;
     }
@@ -1252,11 +1258,18 @@ color: #000000;
     }
 
     .main3sec{
-        display: block;
+        flex-direction: column;
     }
 
+    .main3sec .main-4{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .palka-1{
+        display: none;
+    }
     .block-1{
-        display: inline;
+        flex-direction: row;
     }
     .black-2{
         display: none;
@@ -1274,7 +1287,14 @@ color: #000000;
 
     .main77{
         display: none;
+
     }
+    .main-70{
+        display: flex;
+        flex-direction: column;
+    }
+
+
     .a9{
         display: none;
     }
@@ -1348,14 +1368,19 @@ color: #292929;
         display: none;
     }
 
-    .red-1{
+    .main-5 .red-1{
         width: 335px;
         height: 240px;
     }
 
-    .black-1{
+    .main-5 .black-1{
         width: 359px;
         height: 363px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .black-1 .slab{
+        display: none;
     }
 
     .prlg{
@@ -1459,7 +1484,7 @@ color: #FFFFFF;
         height: 637px;
         display: flex;
         flex-direction: column;
-        justify-content: ;
+        
         align-items: center;
     }
 
@@ -1482,7 +1507,177 @@ color: #FFFFFF;
         width: 100px;
         height: 100px;
     }
-
-
     
+    .or img{
+        width: 359px;
+        height: 280px;
+    }
+
+
+    .con778{
+        flex-direction: column-reverse;
+    }
+    .head7{
+        width: 359px;
+        height: 282px;
+    }
+
+    .head7 h5{
+        display: none;
+    }
+    .div333{
+        writing-mode: horizontal-tb;
+        display: inline;
+    }
+
+    .loss{
+        flex-direction: row;
+        justify-content: center;
+    }
+    .olol{
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .main-3{
+        height: 496px;
+    }
+
+    .imgtext{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-6{
+        flex-direction: column-reverse;
+    }
+    .block7{
+        flex-direction: column-reverse;
+    }
+
+    .obshh{
+        display: flex;
+        gap: 8px;
+    }
+    .main6img img{  
+        width: 359px;
+        height: 281px;
+
+    }
+
+    .white1{
+        width: 359px;
+        
+    }
+
+    .white1 .sub6{
+        display: none;
+    }
+
+    .test .test-1{
+        width: 736px;
+    }
+
+    .test .block8{
+        width: 536px;
+        height: 140px;
+    }
+    .block8 .ttext{
+        font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 100%;
+/* or 24px */
+
+
+/* Steppe/Greyscale/Black */
+
+color: #000000;
+padding-left: 24px;
+
+    }
+
+
+
+
+
+
+
+
+
+    .test .test-2{
+        width: 736px;
+    }
+
+    .test .block9{
+        width: 536px;
+        height: 140px;
+    }
+
+    .test .block9{
+        width: 536px;
+        height: 140px;
+    }
+
+    .test .test-3{
+        width: 736px;
+    }
+
+     .block10{
+        width: 536px;
+        height: 140px;
+    }
+
+    .ttexty{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+        /* or 24px */
+        
+        
+        /* Steppe/Greyscale/Black */
+        
+        color: #000000;
+        padding-left: 24px;
+    }
+
+    .textyy{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+        /* or 24px */
+        
+        
+        /* Steppe/Greyscale/Black */
+        
+        color: #000000;
+        padding-left: 24px;
+    }
+
+    .pox1{
+        display: flex;
+        flex-direction: row;
+        gap: 18px;
+    }
+
+    .loss{
+        flex-direction: column;
+    }
+
+    .con77{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+
 }
